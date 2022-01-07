@@ -37,7 +37,7 @@ def get_countries_from_geo_text(text):
 
     Extraction returns result for country, even if its nationality is mentioned.
 
-    Few countries will not be matched because of some uncertaineties about their names.
+    Few countries will not be matched because of some uncertainties about their names.
     """
 
     text = _normalize_text(text)
